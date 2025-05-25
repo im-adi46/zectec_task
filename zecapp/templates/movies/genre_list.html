@@ -1,0 +1,27 @@
+{% extends 'movies/base.html' %}
+
+{% block content %}
+  <h2>Genres</h2>
+  <a href="{% url 'genre_create' %}" class="btn btn-primary mb-3">Add Genre</a>
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>Genre Name</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for genre in genres %}
+        <tr>
+          <td>{{ genre.genre_name }}</td>
+          <td>
+            <a href="{% url 'genre_update' genre.pk %}" class="btn btn-sm btn-warning">Edit</a>
+            <a href="{% url 'genre_delete' genre.pk %}" class="btn btn-sm btn-danger">Delete</a>
+          </td>
+        </tr>
+      {% empty %}
+        <tr><td colspan="2">No genres found.</td></tr>
+      {% endfor %}
+    </tbody>
+  </table>
+{% endblock %}
