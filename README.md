@@ -2,18 +2,18 @@
 
 ## 📌 Project Overview
 
-The **Movie Management System** is a Django-based web application designed to manage a collection of movies. Users can add, edit, delete, and view movie details along with images, making it easy to organize and showcase movie information.
+The **Movie Management System** is a Django-based web application designed to manage a collection of movies. Users can add, edit, delete, and view movie details, making it easy to organize and showcase movie information.
 
 ---
 
 ## 🚀 Features
 
-* **User Authentication:** Secure login for users to manage movie entries.
+
 * **Add Movies:** Add new movies with title, description, director, and image.
 * **Edit/Delete Movies:** Easily update or remove existing movie entries.
 * **Movie List:** View a paginated list of all movies with images and details.
 * **Dropdown Selection:** Use dropdown menus for fields like director during movie addition.
-* **Image Upload:** Upload and display movie poster images.
+
 
 ---
 
@@ -95,33 +95,6 @@ movie-management-system/
 
 ---
 
-## 📅 Development Timeline
-
-| Week   | Tasks Completed                                              |
-| ------ | ------------------------------------------------------------ |
-| Week 1 | Setup Django project, create Movie model, migrations         |
-| Week 2 | Build CRUD views and templates (list, add, edit, delete)     |
-| Week 3 | Implement image upload and display functionality             |
-| Week 4 | Add dropdown fields (e.g., director), testing, and debugging |
-
----
-
-## 🌐 Deployed Link
-
-*(Add your live deployed link here when available)*
-
----
-
-## 📌 Contribution
-
-Want to contribute?
-
-1. Fork the repository
-2. Create a new branch (`feature-xyz`)
-3. Commit your changes
-4. Push the branch and create a Pull Request
-
----
 
 ## 📞 Support
 
